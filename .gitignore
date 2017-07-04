@@ -2,3 +2,4 @@ config.py
 *.csv
 .env
 env.sh
+env/*
