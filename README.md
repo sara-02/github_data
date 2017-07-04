@@ -10,6 +10,6 @@ So we have use go the hard way of scrapping the data.
 virtualenv --python /usr/bin/python2.7 env
 source env/bin/activate
 pip install -r requirements.txt
-cp src/config.py.template src/config.py
+cp config.py.template config.py
 #make necessary changes in config.py or add a .env with the env variables
 ```
