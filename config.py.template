@@ -1,0 +1,4 @@
+import os
+
+github_user = os.environ.get("github_user", "user")
+github_psswd = os.environ.get("github_psswd", "password")
